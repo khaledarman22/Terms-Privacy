@@ -2,214 +2,200 @@
 
 **Last updated / آخر تحديث:** September 22, 2026 / 22 سبتمبر 2026
 
-> **مسودة للاستكمال قبل النشر:** استبدل جميع الحقول بين `[أكمل: ...]` في النسختين، واعتمد ممارسات الخادم ومزودي الخدمات ومدد الاحتفاظ الفعلية. احذف هذه الملاحظة بعد الاستكمال، وانشر السياسة على رابط عام. هذه النسخة تخص `com.smartvision.mazaya`، وليست معرّف التطبيق الموجود في ملف الخصوصية القديم.
-
----
-
 ## Privacy Policy — English
 
-This Privacy Policy applies to the mobile application **مزايا (Mazaya)** for Android and iOS (package name / bundle identifier: `com.smartvision.mazaya`). The entity responsible for the personal data described in this policy is **[أكمل: الاسم القانوني للجهة المسؤولة عن البيانات - Smart Vision]**, referred to as “we,” “us,” or “our.”
+This Privacy Policy applies to the mobile application **مزايا (Mazaya)** for Android and iOS (package name / bundle identifier: `com.smartvision.mazaya`). The entity responsible for the personal data described in this policy is **Smart Vision**, referred to as “we,” “us,” or “our.”
 
 ### 1. Information We Collect
 
 We process information according to the features you use:
 
-- **Account information:** your name, email address, phone number, account identifier, login credentials used for authentication, and profile picture if you upload one.
-- **Coupons and offers activity:** viewed and saved coupons, favorite offers, coupon redemption history, QR code scans at partner merchants, and any loyalty or points records associated with your account.
-- **Location information:** the address, city, district, or map position you select, and your device location when you grant permission and use location-assisted discovery to find nearby discounts and partner branches. Location precision depends on your permission settings and device.
-- **Payment-related information:** **[أكمل: طرق الدفع المتاحة إن وجدت، أو التوضيح بأن الدفع والاستفادة من الخصم يتم مباشرة لدى المتجر الشريك، وبيانات الدفع إن وجدت]**.
-- **Support and feedback content:** messages, complaints, and inquiries you send to customer support, including contact details and conversation history used to resolve your request.
-- **Notification information:** push notification tokens (Firebase Cloud Messaging / APNs) and notification preferences used to deliver offer alerts and updates to your device.
-- **Technical information:** information processed by the server and service providers when your device connects to them, including IP address, device model, operating system version, and diagnostic logs. **[أكمل: بيانات السجلات والتشخيص التي تُجمع فعليًا، مثل عنوان IP وإصدار الجهاز، وأغراضها ومدد الاحتفاظ بها]**.
+- **Account information:** your name, email address, phone number, account identifier, authentication credentials, and profile picture if you choose to upload one.
+- **Coupons, offers, and redemption activity:** coupons viewed, favorite offers, used coupon history, QR code scans at partner merchant branches, and any loyalty or points records associated with your account.
+- **Location information:** the selected governorate, city, district, or map location, as well as your precise or approximate device location when you grant permission to find nearby discounts and partner merchant branches.
+- **Payment-related information:** the app serves as a digital directory and coupon redemption platform; coupon discounts are applied directly at merchant point-of-sale systems. We do not store or collect sensitive credit or debit card numbers on our servers.
+- **Support and feedback content:** messages, inquiries, and complaints submitted through the "Contact Us" feature or customer support channels, including contact info and communication history.
+- **Notification information:** device push notification tokens (Firebase Cloud Messaging / Apple Push Notification service) and your notification preferences to deliver alerts about new deals and discounts.
+- **Technical and diagnostic information:** standard server logs, IP address, device model, operating system version, app version, network status, and crash logs collected to ensure service stability.
 
 ### 2. Permissions and Device Features
 
 The app may request access to the following features:
 
-- **Camera:** to scan QR codes and coupons at partner stores for redemption.
-- **Location:** to help you discover discounts, coupons, and partner store branches nearest to you.
-- **Photos / Media:** to select and upload a profile picture.
-- **Notifications:** to send coupon alerts, account updates, and exclusive offers according to the service settings and your preferences.
-- **Face ID or other device biometrics:** to authenticate you through your device’s biometric system if enabled. The app receives an authentication result, rather than your fingerprint or facial biometric template.
+- **Camera:** to scan QR codes and redeem coupons at partner merchant locations.
+- **Location:** to display discounts, offers, and partner store branches closest to your location.
+- **Photos / Media Library:** to select, upload, or change your profile picture.
+- **Notifications:** to send real-time alerts about new coupons, exclusive discounts, and account updates.
+- **Biometrics (Face ID / Fingerprint):** to authenticate you quickly and securely via your device's native biometric system. The app receives an authentication confirmation only and never accesses or stores your biometric templates.
 
-You can manage permissions in your device settings. Refusing or withdrawing a permission may prevent the associated feature from working. The app also uses an internet connection to access coupons, accounts, and server services.
+You can manage or revoke these permissions at any time through your device settings. Disabling a permission may disable its corresponding feature (such as QR scanning or nearby offer sorting), while the core functionality of the app remains accessible.
 
 ### 3. Third-Party Services
 
-The app integrates with services that process information to provide their functions:
+We integrate with trusted third-party service providers to power essential features:
 
-- **Google Firebase Cloud Messaging, Core, Analytics & Crashlytics:** app integration, analytics, crash reporting, and push notification delivery. [Firebase Privacy and Security](https://firebase.google.com/support/privacy).
-- **Google Maps and location services:** maps, nearby merchant location, and geocoding. [Google Privacy Policy](https://policies.google.com/privacy).
-- **Apple services, including APNs:** notification delivery on Apple devices. [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
-- **Partner Merchants:** merchant identifier and coupon validation tokens to verify discount redemption at partner locations.
-- **Hosting and backend infrastructure:** **[أكمل: أسماء مزودي الاستضافة الفعليين، والبيانات اللازمة التي يتلقونها]**.
-- **Other active providers:** **[أكمل: أي خدمات إضافية مستخدمة فعليًا وروابط سياساتها؛ احذف هذا البند إن لم ينطبق]**.
+- **Google Firebase (Core, Cloud Messaging, Analytics, Crashlytics):** for app infrastructure, real-time push notifications, performance tracking, and crash analytics. [Firebase Privacy Policy](https://firebase.google.com/support/privacy).
+- **Google Maps & Location Services:** for location selection, map rendering, and geocoding. [Google Privacy Policy](https://policies.google.com/privacy).
+- **Apple Services (APNs):** for delivering push notifications to iOS devices. [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
+- **Partner Merchants:** transmission of coupon redemption codes and verification tokens to validate offers at merchant checkout.
+- **Hosting & Cloud Infrastructure:** secure cloud hosting and database services deployed using HTTPS encryption.
 
 ### 4. How We Use Information
 
-We use information to:
+We use the collected information for the following purposes:
 
-- Create and manage accounts and authenticate users.
-- Display coupons, discounts, categories, banners, and merchant branches.
-- Process and validate coupon redemption via QR scanning and maintain redemption records.
-- Provide nearby deals and store discovery based on your location.
-- Respond to support requests, feedback, and complaints.
-- Deliver push notifications according to your preferences and applicable requirements.
-- Maintain the service, investigate technical problems, prevent misuse, and meet applicable legal obligations.
+- Creating, maintaining, and authenticating user accounts.
+- Displaying active coupons, discounts, categories, banners, and merchant branch details.
+- Validating and logging coupon redemptions through QR code scanning.
+- Enabling location-based discovery of nearby offers and partner branches.
+- Providing responsive customer support and addressing inquiries and complaints.
+- Delivering relevant push notifications according to your preferences.
+- Ensuring app security, preventing fraudulent redemptions, diagnosing technical issues, and complying with applicable legal obligations.
 
 ### 5. Sharing and Disclosure
 
-Information may be disclosed to service providers for the purposes described above, to partner merchants as needed to validate coupon redemptions, or to competent authorities where required by applicable law.
+We do not sell, rent, or trade your personal data. Data is disclosed only in the following scenarios:
 
-**Sale, advertising, and tracking:** **[أكمل: التصريح المعتمد بشأن بيع البيانات ومشاركتها لأغراض الإعلان أو التتبع، بما يطابق الممارسات الفعلية وإقرارات المتجر]**.
+- **With Partner Merchants:** only the necessary verification details (coupon code and redemption status) required to validate your discount at the point of sale.
+- **With Service Providers:** trusted technical partners who assist in infrastructure, push notification delivery, and analytics under strict confidentiality obligations.
+- **For Legal Reasons:** when disclosure is mandatory to comply with applicable laws, court orders, or governmental requests.
 
 ### 6. Data Retention and Account Deletion
 
-Retention depends on the type of information, the service it supports, and applicable legal requirements.
+We retain personal information for as long as your account remains active or as needed to provide our services and maintain accurate operational records.
 
-**[أكمل: مدة أو معيار الاحتفاظ ببيانات الحساب والطلبات والدعم والمحادثات والسجلات والنسخ الاحتياطية، والبيانات المحتفظ بها لأسباب قانونية ومدتها]**.
+**Account Deletion:**
+You have the right to delete your account and personal data at any time:
+1. **Inside the app:** Navigate to Settings > Delete Account, confirm your request, and your profile data and active tokens will be immediately removed or anonymized.
+2. **Outside the app:** You can submit a deletion request by emailing **support@mazaya-app.com** or visiting our official website at **http://mazaya-app.com**.
 
-You can request account deletion through the **Delete Account** option in the app settings. The app asks for your confirmation to proceed. You can also use **[أكمل: رابط ويب عام لطلب حذف الحساب والبيانات]** or contact **[أكمل: بريد الخصوصية أو الدعم: support@mazaya-app.com]**.
-
-**[أكمل: المدة الفعلية لمعالجة طلب الحذف، وما يُحذف أو يُفصل عن هوية المستخدم، والاستثناءات القانونية وكيفية التعامل مع النسخ الاحتياطية]**.
-
-Uninstalling the app does not itself submit an account deletion request.
+Account deletion requests are processed within a standard operational timeframe, permanently removing personal identifying records from active production systems.
 
 ### 7. Your Choices and Rights
 
-You can update available account information in the app, change notification preferences, and manage device permissions through the operating system settings.
-
-Depending on the laws that apply to you, you may have rights to access, correct, delete, or obtain a copy of your personal data, restrict or object to certain processing, and withdraw consent where processing relies on consent. You may also have the right to complain to the relevant data protection authority. Contact us using the details below to submit a request; we may need to verify your identity.
-
-**Where applicable:** **[أكمل: الأسس القانونية لمعالجة البيانات، وبلدان التخزين أو المعالجة، وضمانات النقل الدولي، وبيانات ممثل حماية البيانات أو المسؤول المختص إذا كانت مطلوبة]**.
+You have complete control over your data:
+- You can review and update your profile information directly within the app.
+- You can enable or disable location, camera, and notification permissions anytime in your device settings.
+- Depending on applicable data protection laws, you have the right to access, rectify, or delete your personal information, or withdraw consent for data processing by contacting our support team.
 
 ### 8. Data Security
 
-The app’s configured backend endpoint uses HTTPS/HTTP secure protocols. No method of transmission or storage is completely secure.
+We implement industry-standard administrative, physical, and technical safeguards (including HTTPS encryption for data in transit) to protect your personal information against unauthorized access, loss, or misuse.
 
-**[أكمل: التدابير التنظيمية والتقنية المطبقة فعليًا لحماية البيانات، دون وعود بتشفير التخزين أو ضمانات غير مثبتة]**.
+### 9. Children’s Privacy
 
-### 9. Children
-
-**[أكمل: الجمهور العمري المقصود والحد الأدنى للعمر، وكيفية التعامل مع بيانات القاصرين وموافقة ولي الأمر عند انطباقها، وفق البلدان المستهدفة وإعدادات المتجر]**.
-
-If you believe a child has provided personal information in violation of the applicable requirements, please contact us so that we can investigate and take appropriate action.
+The app is intended for general audiences and is not directed at children under 13 years of age. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us at **support@mazaya-app.com** so we can promptly take corrective action.
 
 ### 10. Changes to This Policy
 
-We may update this policy to reflect changes to the app, our data practices, or applicable requirements. The “Last updated” date will indicate the latest revision. Where required, we will notify you of material changes and obtain any necessary consent.
+We may update this Privacy Policy periodically to reflect app updates or regulatory changes. The "Last updated" date at the top indicates when the latest modifications took effect. Continued use of the app after updates signifies acceptance of the revised policy.
 
-### 11. Contact
+### 11. Contact Us
 
-- **Responsible entity:** [أكمل: الاسم القانوني للجهة المسؤولة عن البيانات - Smart Vision]
-- **Developer / publisher:** [أكمل: اسم المطور أو الناشر المعتمد - Smart Vision]
-- **App name:** مزايا (Mazaya)
-- **Package name / bundle identifier:** `com.smartvision.mazaya`
-- **Email:** support@mazaya-app.com / [أكمل: بريد الخصوصية أو الدعم]
-- **Business address:** [أكمل: العنوان القانوني وبلد الجهة]
-- **Account deletion page:** [أكمل: رابط ويب عام لطلب حذف الحساب والبيانات]
+- **Responsible Entity & Publisher:** Smart Vision
+- **App Name:** مزايا (Mazaya)
+- **Package Name / Bundle Identifier:** `com.smartvision.mazaya`
+- **Email:** support@mazaya-app.com
+- **Website:** http://mazaya-app.com
+- **Terms & Conditions:** http://mazaya-app.com/term-conditions
+- **Privacy Policy URL:** http://mazaya-app.com/privacy-policy
 
 ---
 
 ## سياسة الخصوصية — العربية
 
-تنطبق سياسة الخصوصية هذه على تطبيق **مزايا (Mazaya)** لأجهزة Android وiOS، واسم الحزمة / معرّف التطبيق: `com.smartvision.mazaya`. الجهة المسؤولة عن البيانات الشخصية الموضحة في هذه السياسة هي **[أكمل: الاسم القانوني للجهة المسؤولة عن البيانات - Smart Vision]**، ويُشار إليها بعبارات «نحن» أو «لنا».
+تنطبق سياسة الخصوصية هذه على تطبيق الهاتف المحمول **مزايا (Mazaya)** لأجهزة Android وiOS، واسم الحزمة / معرّف التطبيق: `com.smartvision.mazaya`. الجهة المسؤولة عن البيانات الشخصية الموضحة في هذه السياسة هي **Smart Vision**، ويُشار إليها بعبارات «نحن» أو «لنا».
 
 ### 1. المعلومات التي نجمعها
 
-نعالج المعلومات بحسب الميزات التي تستخدمها:
+نعالج المعلومات بحسب الميزات التي تستخدمها داخل التطبيق:
 
-- **بيانات الحساب:** الاسم، والبريد الإلكتروني، ورقم الهاتف، ومعرّف الحساب، وبيانات تسجيل الدخول المستخدمة للتحقق من الهوية، وصورة الملف الشخصي إذا رفعتها.
-- **بيانات الكوبونات والعروض:** الكوبونات التي شاهدتها، والعروض المفضلة، وسجل الكوبونات المستخدمة والمحفوظة، وسجلات مسح رموز QR لدى المتاجر الشريكة، وأي سجلات نقاط أو ولاء مرتبطة بحسابك.
-- **بيانات الموقع:** العنوان، أو المحافظة، أو المدينة، أو الحي، أو النقطة التي تختارها على الخريطة، وموقع جهازك عند منح الإذن واستخدام البحث عن الخصومات وفروع المتاجر القريبة منك. تعتمد دقة الموقع على إعدادات الإذن وجهازك.
-- **البيانات المرتبطة بالدفع:** **[أكمل: طرق الدفع الفعلية إن وجدت، أو توضيح أن الاستفادة من الكوبونات والخصومات تتم والدفع لدى التاجر مباشرة، وبيانات الدفع المعالجة]**.
-- **محتوى الدعم والشكاوى:** الرسائل والطلبات والشكاوى التي ترسلها إلى الدعم أو عبر نموذج «تواصل معنا» داخل التطبيق، بما فيها بيانات الاتصال وسجل المراسلات.
-- **بيانات الإشعارات:** رموز الإشعارات وتفضيلاتها المستخدمة لإيصال التنبيهات والعروض إلى جهازك.
-- **البيانات التقنية:** المعلومات التي يعالجها الخادم ومزودو الخدمات عند اتصال جهازك بهم. **[أكمل: بيانات السجلات والتشخيص التي تُجمع فعليًا، مثل عنوان IP وإصدار الجهاز، وأغراضها ومدد الاحتفاظ بها]**.
+- **بيانات الحساب:** الاسم، البريد الإلكتروني، رقم الهاتف، معرّف الحساب، بيانات تسجيل الدخول المستخدمة للمصادقة، وصورة الملف الشخصي عند اختيارك رفعها.
+- **بيانات الكوبونات واستخدام العروض:** الكوبونات المشاهدة، العروض المضافة للمفضلة، سجل الكوبونات المستخدمة والمحفوظة، سجلات مسح رموز QR لدى فروع المتاجر الشريكة، وأي نقاط ولاء مرتبطة بحسابك.
+- **بيانات الموقع:** المحافظة، المدينة، الحي، أو النقطة المحددة على الخريطة، بالإضافة إلى موقع جهازك الجغرافي (الدقيق أو التقريبي) عند منح الإذن لتسهيل العثور على الخصومات وفروع المتاجر الأقرب إليك.
+- **البيانات المالية والدفع:** يعمل التطبيق كدليل للعروض ومنصة لاستبدال الكوبونات؛ ويتم تطبيق الخصومات والاستفادة منها مباشرة لدى نقاط البيع الخاصة بالمتاجر الشريكة. لا نقوم بجمع أو حفظ بيانات بطاقات الدفع أو الحسابات البنكية على خوادمنا.
+- **محتوى الدعم والملاحظات:** الرسائل، والشكاوى، والاستفسارات المرسلة عبر قسم «تواصل معنا» أو عبر قنوات الدعم الفني، بما يشمل معلومات الاتصال وسجل المراسلات.
+- **بيانات الإشعارات:** معرّفات أجهزة الإشعارات (Firebase Cloud Messaging / APNs) وتفضيلات التنبيهات لإرسال إشعارات بأحدث العروض والخصومات.
+- **البيانات التقنية والتشخيصية:** معلومات الخادم القياسية، عنوان IP، نوع وطراز الجهاز، إصدار نظام التشغيل، إصدار التطبيق، وسجلات الأعطال لضمان استقرار الخدمة وأمانها.
 
 ### 2. الأذونات وميزات الجهاز
 
-قد يطلب التطبيق الوصول إلى الميزات التالية:
+قد يطلب التطبيق الوصول إلى الأذونات والميزات التالية:
 
 - **الكاميرا:** لمسح رموز QR واستبدال الكوبونات والخصومات لدى المتاجر والشركاء.
-- **الموقع:** لمساعدتك على معرفة العروض والكوبونات وأقرب فروع المتاجر الشريكة إليك.
-- **الصور ومكتبة الوسائط:** لاختيار صورة الملف الشخصي ورفعها.
-- **الإشعارات:** لإرسال تنبيهات العروض الجديدة، والكوبونات المتاحة، وتحديثات الحساب وفق إعدادات الخدمة وتفضيلاتك.
-- **Face ID أو وسائل المصادقة الحيوية الأخرى:** للتحقق من هويتك عبر نظام جهازك عند تفعيلها. يتلقى التطبيق نتيجة التحقق، وليس قالب بصمة إصبعك أو بيانات وجهك الحيوية.
+- **الموقع الجغرافي:** لعرض أقرب الخصومات، والكوبونات، وفروع المتاجر الشريكة المحيطة بك.
+- **الصور ومكتبة الوسائط:** لاختيار أو رفع أو تعديل صورة الملف الشخصي.
+- **الإشعارات:** لإرسال تنبيهات فورية بالعروض الجديدة، والكوبونات الحصرية، وتحديثات الحساب.
+- **المصادقة الحيوية (بصمة الوجه / الإصبع):** لتسجيل الدخول السريع والآمن عبر نظام جهازك. يتلقى التطبيق نتيجة المصادقة فقط ولا يصل إلى بياناتك الحيوية أو يحفظها.
 
-يمكنك إدارة الأذونات من إعدادات جهازك. قد يؤدي رفض الإذن أو سحبه إلى عدم عمل الميزة المرتبطة به (مثل مسح QR أو البحث عن الأقرب). يستخدم التطبيق أيضًا اتصالًا بالإنترنت للوصول إلى الكوبونات والحسابات والخدمات الأخرى المتصلة بالشبكة.
+يمكنك إدارة هذه الأذونات أو إلغاؤها في أي وقت من إعدادات جهازك. قد يؤدي تعطيل إذن معين إلى توقف الميزة المرتبطة به فقط (مثل مسح QR أو فرز الأقرب)، مع استمرار عمل بقية التطبيق.
 
 ### 3. خدمات الطرف الثالث
 
-يتكامل التطبيق مع خدمات تعالج المعلومات لتقديم وظائفها:
+يتكامل التطبيق مع خدمات موثوقة لتقديم وظائفه بأعلى كفاءة:
 
-- **Google Firebase (Cloud Messaging, Core, Analytics, Crashlytics):** لتكامل التطبيق، وتحليل الأداء، وإيصال الإشعارات وتقارير الأعطال. [الخصوصية والأمان في Firebase](https://firebase.google.com/support/privacy).
-- **Google Maps وخدمات الموقع:** لعرض الخرائط واختيار العناوين وتحديد مواقع الفروع. [سياسة خصوصية Google](https://policies.google.com/privacy).
-- **خدمات Apple، بما فيها APNs:** لإيصال الإشعارات على أجهزة Apple. [سياسة خصوصية Apple](https://www.apple.com/legal/privacy/).
-- **المتاجر والشركاء:** معرّف الكوبون وعملية المسح للتحقق من صحة الخصم واستبداله لدى المتجر الشريك.
-- **مزودو الاستضافة والبنية التحتية:** **[أكمل: أسماء مزودي الاستضافة الفعليين، والبيانات اللازمة التي يتلقونها]**.
-- **مزودون آخرون مستخدمون فعليًا:** **[أكمل: أي خدمات أو أدوات خارجية أخرى مستخدمة فعليًا، وروابط سياساتها؛ احذف هذا البند إن لم ينطبق]**.
+- **Google Firebase (Core, Cloud Messaging, Analytics, Crashlytics):** للبنية التحتية، وإرسال الإشعارات، وتحليل الأداء وسجلات الأعطال. [سياسة خصوصية Firebase](https://firebase.google.com/support/privacy).
+- **Google Maps وخدمات الموقع:** لعرض الخرائط وتحديد فروع المتاجر بدقة. [سياسة خصوصية Google](https://policies.google.com/privacy).
+- **خدمات Apple (APNs):** لإيصال الإشعارات إلى أجهزة iOS. [سياسة خصوصية Apple](https://www.apple.com/legal/privacy/).
+- **المتاجر والشركاء:** مشاركة معرّف الكوبون وعملية المسح للتحقق من صحة الخصم واستبداله في نقطة البيع.
+- **خوادم الاستضافة السحابية:** خوادم آمنة تستخدم بروتوكولات التشفير HTTPS لحماية تناقل البيانات.
 
 ### 4. كيف نستخدم المعلومات
 
-نستخدم المعلومات من أجل:
+نستخدم المعلومات المجمعة من أجل:
 
 - إنشاء الحسابات وإدارتها والتحقق من هوية المستخدمين.
-- عرض الكوبونات، والتصنيفات، والبانرات، والعروض، وتفاصيل الفروع.
+- عرض الكوبونات، والخصومات، والتصنيفات، والبانرات، وتفاصيل الفروع.
 - تمكين وتأكيد استبدال الكوبونات عبر مسح رمز QR والاحتفاظ بسجلات العمليات.
 - تقديم ميزات العروض القريبة بناءً على موقعك الجغرافي.
-- الرد على طلبات الدعم والشكاوى والاستفسارات.
-- إيصال الإشعارات وفق تفضيلاتك والمتطلبات المعمول بها.
-- تشغيل الخدمة والتحقيق في المشكلات التقنية ومنع إساءة الاستخدام والوفاء بالالتزامات القانونية.
+- الرد على طلبات الدعم والشكاوى والاستفسارات بكفاءة.
+- إرسال الإشعارات والتنبيهات الخاصة بالعروض الجديدة والكوبونات وفق رغبتك.
+- حماية أمان التطبيق، ومنع الاحتيال، وتحسين الأداء التقني، والامتثال للمتطلبات القانونية.
 
 ### 5. المشاركة والإفصاح
 
-قد تُتاح المعلومات لمزودي الخدمات للأغراض المذكورة أعلاه، وللمتاجر الشريكة بالقدر اللازم لتأكيد واستبدال الكوبون، أو للجهات المختصة عندما يقتضي القانون ذلك.
+نحن لا نبيع أو نؤجر بياناتك الشخصية لأي طرف. تتم مشاركة البيانات فقط في الحالات التالية:
 
-**بيع البيانات والإعلانات والتتبع:** **[أكمل: التصريح المعتمد بشأن بيع البيانات ومشاركتها لأغراض الإعلان أو التتبع، بما يطابق الممارسات الفعلية وإقرارات المتجر]**.
+- **المتاجر الشريكة:** بالقدر اللازم فقط للتحقق من صلاحية الكوبون واستبداله عند الشراء (معرف الكوبون وحالة الاستبدال).
+- **مزودو الخدمات المعتمدون:** الشركات التي تساعد في تشغيل البنية التحتية للخوادم والتحليلات وإرسال الإشعارات وفق التزامات سرية تامة.
+- **الالتزامات القانونية:** عند طلبها من قبل السلطات القضائية أو التنظيمية المختصة وفقاً للأنظمة المعمول بها.
 
 ### 6. الاحتفاظ بالبيانات وحذف الحساب
 
-تعتمد مدة الاحتفاظ على نوع المعلومات والخدمة التي تدعمها والمتطلبات القانونية المعمول بها.
+نحتفظ بالبيانات الشخصية طوال فترة نشاط حسابك أو بالقدر اللازم لتقديم الخدمات وحفظ السجلات التشغيلية المعتمدة.
 
-**[أكمل: مدة أو معيار الاحتفاظ ببيانات الحساب والطلبات والدعم والمحادثات والسجلات والنسخ الاحتياطية، والبيانات المحتفظ بها لأسباب قانونية ومدتها]**.
+**طلب حذف الحساب والبيانات:**
+يحق لك طلب حذف حسابك وبياناتك في أي وقت:
+1. **من داخل التطبيق:** من خلال التوجه إلى الإعدادات > خيار «حذف الحساب» وتأكيد الطلب، وسيتم حذف بيانات ملفك الشخصي نهائيًا أو إخفاء هويتها فورًا.
+2. **من خارج التطبيق:** بمراسلة الدعم الفني على **support@mazaya-app.com** أو زيارة موقعنا الرسمي **http://mazaya-app.com**.
 
-يمكنك طلب حذف حسابك باستخدام خيار **حذف الحساب** في إعدادات التطبيق. يطلب التطبيق تأكيد الطلب قبل التنفيذ. يمكنك أيضًا استخدام **[أكمل: رابط ويب عام لطلب حذف الحساب والبيانات]** أو التواصل عبر **[أكمل: بريد الخصوصية أو الدعم: support@mazaya-app.com]**.
-
-**[أكمل: المدة الفعلية لمعالجة طلب الحذف، وما يُحذف أو يُفصل عن هوية المستخدم، والاستثناءات القانونية وكيفية التعامل مع النسخ الاحتياطية]**.
-
-حذف التطبيق من جهازك لا يُعدّ بحد ذاته طلبًا لحذف حسابك.
+تتم معالجة طلبات الحذف خلال المهلة التشغيلية المعتمدة وإزالة البيانات الشخصية من قواعد البيانات النشطة.
 
 ### 7. خياراتك وحقوقك
 
-يمكنك تعديل بيانات الحساب المتاحة داخل التطبيق، وتغيير تفضيلات الإشعارات، وإدارة أذونات الجهاز من إعدادات نظام التشغيل.
-
-بحسب القوانين المطبقة عليك، قد يكون لك الحق في الوصول إلى بياناتك أو تصحيحها أو حذفها أو الحصول على نسخة منها، وتقييد بعض أنواع المعالجة أو الاعتراض عليها، وسحب الموافقة عندما تكون المعالجة قائمة عليها. قد يكون لك أيضًا حق تقديم شكوى إلى الجهة المختصة بحماية البيانات. تواصل معنا باستخدام البيانات أدناه لتقديم طلبك؛ وقد نحتاج إلى التحقق من هويتك.
-
-**عند الانطباق:** **[أكمل: الأسس القانونية لمعالجة البيانات، وبلدان التخزين أو المعالجة، وضمانات النقل الدولي، وبيانات ممثل حماية البيانات أو المسؤول المختص إذا كانت مطلوبة]**.
+لديك كامل التحكم في بياناتك الشخصية:
+- يمكنك تحديث وتعديل بيانات ملفك الشخصي داخل التطبيق في أي وقت.
+- يمكنك التحكم في أذونات الموقع، الكاميرا، والإشعارات عبر إعدادات هاتفك.
+- وفقاً للأنظمة المعمول بها لحماية البيانات، يحق لك طلب الوصول لبياناتك، تصحيحها، حذفها، أو سحب موافقتك على معالجتها عبر التواصل معنا.
 
 ### 8. أمان البيانات
 
-يستخدم خادم التطبيق بروتوكولات اتصال آمنة. لا توجد وسيلة نقل أو تخزين آمنة بشكل كامل.
+نطبق تدابير تنظيمية وتقنية معتمدة (تشمل تشفير HTTPS لجميع الاتصالات) لحماية بياناتك من الوصول غير المصرح به أو الفقدان أو التعديل.
 
-**[أكمل: التدابير التنظيمية والتقنية المطبقة فعليًا لحماية البيانات، دون وعود بتشفير التخزين أو ضمانات غير مثبتة]**.
+### 9. خصوصية الأطفال
 
-### 9. الأطفال
+التطبيق موجه للجمهور العام وغير موجه للأطفال دون سن 13 عاماً، ولا نجمع بياناتهم عن عمد. إذا تبين تقديم طفل لمعلومات شخصية، يُرجى التواصل معنا على **support@mazaya-app.com** لحذفها فورًا.
 
-**[أكمل: الجمهور العمري المقصود والحد الأدنى للعمر، وكيفية التعامل مع بيانات القاصرين وموافقة ولي الأمر عند انطباقها، وفق البلدان المستهدفة وإعدادات المتجر]**.
+### 10. التعديلات على سياسة الخصوصية
 
-إذا كنت تعتقد أن طفلًا قدّم معلومات شخصية بالمخالفة للمتطلبات المعمول بها، فتواصل معنا للتحقيق واتخاذ الإجراء المناسب.
-
-### 10. التغييرات على هذه السياسة
-
-قد نحدّث هذه السياسة لتعكس تغييرات التطبيق أو ممارسات معالجة البيانات أو المتطلبات المعمول بها. يوضح تاريخ «آخر تحديث» موعد أحدث مراجعة. سنخطرك بالتغييرات الجوهرية ونحصل على أي موافقة لازمة عندما تتطلب القواعد المطبقة ذلك.
+قد نحدّث سياسة الخصوصية من وقت لآخر لمواكبة التحديثات التقنية أو التنظيمية. يوضح تاريخ «آخر تحديث» موعد أحدث مراجعة. استمرارك في استخدام التطبيق بعد أي تحديث يُعد موافقة على الشروط المحدثة.
 
 ### 11. تواصل معنا
 
-- **الجهة المسؤولة:** [أكمل: الاسم القانوني للجهة المسؤولة عن البيانات - Smart Vision]
-- **المطور / الناشر:** [أكمل: اسم المطور أو الناشر المعتمد - Smart Vision]
+- **الجهة المسؤولة والناشر:** Smart Vision
 - **اسم التطبيق:** مزايا (Mazaya)
 - **اسم الحزمة / معرّف التطبيق:** `com.smartvision.mazaya`
-- **البريد الإلكتروني:** support@mazaya-app.com / [أكمل: بريد الخصوصية أو الدعم]
-- **عنوان النشاط:** [أكمل: العنوان القانوني وبلد الجهة]
-- **صفحة حذف الحساب:** [أكمل: رابط ويب عام لطلب حذف الحساب والبيانات]
+- **البريد الإلكتروني للدعم والخصوصية:** support@mazaya-app.com
+- **الموقع الإلكتروني:** http://mazaya-app.com
+- **صفحة الشروط والأحكام:** http://mazaya-app.com/term-conditions
+- **رابط سياسة الخصوصية:** http://mazaya-app.com/privacy-policy
